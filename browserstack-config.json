@@ -1,0 +1,31 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "josshithanambiar_xoOYhN",
+  "key": "yoN2sV8UDQNoXcuLK8hq",
+  "capabilities": {
+    "project": "ElPais Scraper",
+    "build": "Scraper Build",
+    "browserstack.local": "true",
+    "browserstack.debug": "true",
+    "browserstack.console": "verbose"
+  },
+  "environments": [
+    {
+      "os": "Windows",
+      "os_version": "10",
+      "browser": "Chrome",
+      "browser_version": "latest"
+    },
+    {
+      "os": "OS X",
+      "os_version": "Ventura",
+      "browser": "Safari",
+      "browser_version": "16.0"
+    },
+    {
+      "device": "iPhone 14 Pro",
+      "os_version": "16",
+      "real_mobile": "true"
+    }
+  ]
+}
